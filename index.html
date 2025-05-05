@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Interactive DOM Magic</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <h1 id="main-heading">✨ Welcome to My Interactive Page ✨</h1>
+    </header>
+
+    <!-- Text Update Section -->
+    <section>
+      <p id="dynamic-text">Click the button to see some magic happen!</p>
+      <button onclick="changeText()">🔁 Change Text</button>
+    </section>
+
+    <!-- Style Modification Section -->
+    <section>
+      <p id="style-target">Watch me change colors and grow!</p>
+      <button onclick="modifyStyle()">🎨 Transform Style</button>
+    </section>
+
+    <!-- Add & Remove Element Section -->
+    <section>
+      <div id="element-container"></div>
+      <button onclick="addElement()">➕ Add Element</button>
+      <button onclick="removeElement()">➖ Remove Element</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>🧠 Coded with curiosity and creativity &copy; 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
